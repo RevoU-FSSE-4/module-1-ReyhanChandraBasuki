@@ -1,0 +1,21 @@
+#France-landmark .grid-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+    grid-auto-rows:200px 200px 200px;
+    margin: 10px;
+}
+#France-landmark .grid-container >div{
+width: 25%;
+}
+#France-landmark .grid-container img {
+    width: 230%;
+    height: 100%;
+    margin-left: 5px;
+}
+#France-video .flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
