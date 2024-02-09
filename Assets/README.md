@@ -8,4 +8,4 @@ In this week 1 assignment, I created a website that describes how beautiful a pl
 
 ### URL of Website
 
-You can access the website at:http://127.0.0.1:5500/module-1-ReyhanChandraBasuki/Assets/index.html
+You can access the website at:https://allaboutfrance.netlify.app/
