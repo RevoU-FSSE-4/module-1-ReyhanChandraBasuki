@@ -1,3 +1,41 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sticky-header {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; 
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.nav-list li {
+    margin-right: 10px;
+}
+.hamburger {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#about {
+    padding: 100px;
+    font-size: 20px;
+}
 #France-landmark .grid-container {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -13,9 +51,32 @@ width: 25%;
     height: 100%;
     margin-left: 5px;
 }
+#France-landmark .text-landmark {
+    font-size: 16px;
+}
+#France-video .text-video{
+    padding: 10px;
+    font-size: 25px;
+}
 #France-video .flex-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
+}
+@media only screen and (max-width: 760px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        top:50px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-list li {
+        margin: 10px;
+    }
+    
 }
